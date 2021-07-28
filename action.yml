@@ -1,0 +1,8 @@
+name: 'Very Simple Hello World'
+description: 'Prints hello world'
+
+runs:
+  using: "composite"
+  steps:
+    - run: echo Hello world!
+      shell: bash
